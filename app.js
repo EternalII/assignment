@@ -13,7 +13,7 @@ app.get("/items", async (req, res) => {
     res.send({
         "success": true,
         "code": 200,
-        "data": items[0]})
+        "data": items})
 })
 
 app.get("/item/:id", async (req, res) => {
