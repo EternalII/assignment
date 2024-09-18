@@ -11,5 +11,3 @@
 - `GET /items`: Get all items. E.g.: `curl get http://localhost:8080/items | jq`
 - `GET /search` OR `GET /item/search`: Search item or category.
 - `POST /category`: add new category. E.g: `curl -X POST http://localhost:8080/category -H "Content-Type: application/json" -d '{"name": "Tools"}'`
-
-TEST
